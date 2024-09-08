@@ -11,23 +11,23 @@ import Link from "next/link";
 import Image from "next/image";
 import WorkSliderBtns from "@/components/ui/WorkSliderBtns";
 const projects=[
-  { num:"02",
-    category:"frontend",
-    title:"Weather-Application",
-    description:" Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo, nostrum.",
-    stack:[{name:"Html 5"},{name:"Css 3"},{name:"Javascript"}],
-    image: '/assets/work/thumb2.jpeg',
-    live: "https://ravisankaradimula.github.io/Weather-Application/",
-    github:"https://github.com/ravisankaradimula/Weather-Application.git",
-  },
   { num:"01",
     category:"frontend",
     title:"The Blog",
-    description:" Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo, nostrum.",
+    description:" This project is a dynamic blog application developed using the React framework. It facilitates the creation, deletion, and viewing of individual blog posts by users.",
     stack:[{name:"Html 5"},{name:"Css 3"},{name:"Javascript"},{name:"React"}],
     image: '/assets/work/Thumb1.jpeg',
     live: "",
     github:"https://github.com/ravisankaradimula/The-Blog.git",
+  },
+  { num:"02",
+    category:"frontend",
+    title:"Weather-Application",
+    description:"The Current Weather Application enables users to search for the current weather in any city. It retrieves real-time weather data from the OpenWeatherMap API and presents it in a user-friendly interface.",
+    stack:[{name:"Html 5"},{name:"Css 3"},{name:"Javascript"}],
+    image: '/assets/work/thumb2.jpeg',
+    live: "https://ravisankaradimula.github.io/Weather-Application/",
+    github:"https://github.com/ravisankaradimula/Weather-Application.git",
   },
 
 ]

@@ -4,7 +4,7 @@ import{FaHtml5,FaCss3,FaJs,FaReact,FaNodeJs} from "react-icons/fa"
   const about={
     title:"About me",
     description:
-    " Lorem, ipsum dolor sit amet consectetur adipisicing elit.Consectetur suscipit fugiat quidem eum dicta vero ullam, minima nesciunt corrupti ducimus.",
+    " Here provided the information all about me:",
     info: [
       {
         fieldName:"Name",
@@ -32,7 +32,7 @@ import{FaHtml5,FaCss3,FaJs,FaReact,FaNodeJs} from "react-icons/fa"
   const education={
     icon:"/assets/resume/cap.svg",
     title: "My Education",
-    description:" Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat quod iure harum aspernatur perspiciatis inventore cupiditate neque ad sapiente assumenda",
+    description:"Passionate Computer Science student at National Institute of Technology ,Silchar ",
     items:[
       {
         institution:" National Institute of Technology ,Silchar",
@@ -54,7 +54,7 @@ import{FaHtml5,FaCss3,FaJs,FaReact,FaNodeJs} from "react-icons/fa"
 
   const skills={
     title:"My skills",
-    description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore quod sunt dignissimos optio voluptates nam nemo, aut blanditiis error necessitatibus? ",
+    description: " Proficient in the following skills:",
     skillList:[
       {
        icon:<FaHtml5/>,
@@ -168,7 +168,7 @@ import{FaHtml5,FaCss3,FaJs,FaReact,FaNodeJs} from "react-icons/fa"
                   <p className="max-w-[600px] text-white/60 mx-auto xl:mx-0">
                   {about.description}
                   </p>
-                  <ul className="grid grid-cols-1 xl:grid-cols-2 gap-y-6 max-w-[620px] mx-auto xl:mx-0">
+                  <ul className="grid grid-cols-1 xl:grid-cols-1 gap-y-6 max-w-[620px] mx-auto xl:mx-0">
                       {about.info.map((item,index)=>{
                         return (
                           <li key={index} className="flex items-center justify-center xl:justify-start gap-4">
