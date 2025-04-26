@@ -1,36 +1,81 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Portfolio
+This is my personal portfolio website built using React.js.
+It showcases my projects, skills, and contact information in a clean and responsive design.
 
-## Getting Started
+🛠 Tech Stack
+React.js
 
-First, run the development server:
+HTML5
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+CSS3
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+JavaScript (ES6+)
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+React Router (if used)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Responsive Design Principles
 
-## Learn More
+✨ Features
+About Me section
 
-To learn more about Next.js, take a look at the following resources:
+Skills section
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Projects section
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Contact Form
 
-## Deploy on Vercel
+Smooth scrolling and clean UI
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Mobile-friendly & Responsive Design
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+🚀 Getting Started
+Follow these steps to set up the project locally:
+
+Prerequisites
+Node.js and npm installed
+
+Git installed
+
+Installation
+bash
+Copy
+Edit
+# Clone the repository
+git clone https://github.com/ravisankaradimula/Portfolio.git
+
+# Navigate to the project directory
+cd Portfolio
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm run build
+npm start
+The app should now be running at http://localhost:3000!
+
+📂 Project Structure
+bash
+Copy
+Edit
+Portfolio/
+├── public/
+│   └── index.html
+├── src/
+│   ├── components/
+│   ├── assets/
+│   ├── App.js
+│   ├── index.js
+│   └── ...
+├── package.json
+└── README.md
+📸 Screenshots
+(Add screenshots or a demo GIF of your website here for better presentation!)
+
+🙌 Contributing
+Contributions are welcome!
+If you have suggestions to improve the portfolio, feel free to open an issue or submit a pull request.
+
+📄 License
+This project is open-source and available under the MIT License.
+
