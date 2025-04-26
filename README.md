@@ -37,9 +37,9 @@ Node.js and npm installed
 Git installed
 
 Installation
-bash
+```bash
 Copy
-Edit
+
 # Clone the repository
 git clone https://github.com/ravisankaradimula/Portfolio.git
 
@@ -53,11 +53,11 @@ npm install
 npm run build
 npm start
 The app should now be running at http://localhost:3000!
-
+```
 📂 Project Structure
-bash
-Copy
-Edit
+```bash
+
+
 Portfolio/
 ├── public/
 │   └── index.html
@@ -69,13 +69,16 @@ Portfolio/
 │   └── ...
 ├── package.json
 └── README.md
-📸 Screenshots
-(Add screenshots or a demo GIF of your website here for better presentation!)
+```
+![image](https://github.com/user-attachments/assets/ded38cde-ac69-4466-b59d-90ad4608a2ee)
+![image](https://github.com/user-attachments/assets/51ab4524-f5f2-490d-b7c9-3899cb01727a)
 
 🙌 Contributing
+
 Contributions are welcome!
 If you have suggestions to improve the portfolio, feel free to open an issue or submit a pull request.
 
 📄 License
+
 This project is open-source and available under the MIT License.
 
